@@ -1,0 +1,95 @@
+.wangyibo{
+    display :flex;
+    justify-content: center;
+    background-color:#04B404;
+    font-family: cursive;
+}
+
+.flex-container{
+        display: grid;
+        grid-template-columns: 1fr 50px 1fr;
+        justify-content: space-between;
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: left;
+        
+        
+}
+
+.flex-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:30px;
+    justify-content: center;
+    
+}
+
+.image{
+    text-align: center;
+    
+}
+.imagebg{
+   border : solid black ;
+   
+    
+}
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+  }
+
+
+
+  footer {
+    text-align: center;
+    padding: 2px;
+    background-color: 	#4a4a4a;
+    color: white;
+  }
+  .wangpro{
+      background-color: white;
+      padding : 5%;
+  }
+
+  .wangper{
+    background-color: white;
+    padding : 5%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 50;
+  font-size: medium;
+}
+
+
+td, tr,th{
+  text-align: left;
+  padding: 10px;
+  padding-left:150px;
+  font-size: medium;
+ 
+}
+
+
+
+  @media screen and (max-width: 800px) {
+      body{
+          display:grid;
+          grid-template-columns: 1fr;
+          
+      }
+      .flex-container{
+          display:grid;
+          grid-template-columns: 1fr;
+          
+      }
+      .flex-container1{
+          display:grid;
+          grid-template-columns: 1fr;
+      }
+      
+
+  }
+  
